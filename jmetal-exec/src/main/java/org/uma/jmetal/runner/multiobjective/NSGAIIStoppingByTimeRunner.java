@@ -28,7 +28,7 @@ public class NSGAIIStoppingByTimeRunner extends AbstractAlgorithmRunner {
    * @throws JMetalException
    * @throws FileNotFoundException
    * Invoking command:
-    java org.uma.jmetal.runner.multiobjective.NSGAIIRunner problemName [referenceFront]
+    java org.uma.jmetal.runner.multiobjective.NSGAIIRunnerExercise3 problemName [referenceFront]
    */
   public static void main(String[] args) throws JMetalException, FileNotFoundException {
     Problem<DoubleSolution> problem;
