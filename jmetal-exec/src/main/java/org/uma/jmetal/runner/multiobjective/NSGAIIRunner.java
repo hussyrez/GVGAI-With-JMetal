@@ -45,6 +45,10 @@ public class NSGAIIRunner extends AbstractAlgorithmRunner {
       referenceParetoFront = args[1] ;
     } else {
       problemName = "org.uma.jmetal.problem.multiobjective.AliensButterflies";
+      // problemName = "org.uma.jmetal.problem.multiobjective.AliensChase";
+      // problemName = "org.uma.jmetal.problem.multiobjective.ButterfliesChase";
+      // problemName = "org.uma.jmetal.problem.multiobjective.AliensButterfliesChase";
+
     }
 
     problem = ProblemUtils.<DoubleSolution> loadProblem(problemName);
